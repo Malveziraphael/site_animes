@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root { 
+    
+--blue: blue;
+--text-gray: #3f4954;
+--text-light: #686666da;
+--bg-color: #0f0f0f;
+--white: #ffffff;
+--midnight: #104f55;
+--whitebg: #979797 ;
+--sky: linear-gradient(120deg, #9dc1fa 0%, #c2e9fb 100%);
+--purple: linear-gradient(120deg, #640000 0%, #3b0202 100%);
+--gold: linear-gradient(120deg, #fdba00 0%, #fff700 100%);
+}
+
+
+/* Fonts 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mouse Memoirs', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+*/
+
+body{
+    background-color: black;
+}
+
+
+
+
+.nav {
+    background: black;
+    min-height: 10vh;
+    overflow: hidden;
+ 
+}
+
+*{
+    text-decoration: none;
+}
+
+
+
+.blogup {   
+    color: white;
+    text-shadow: 2px 2px #000000;
+    font-family: 'Oswald', sans-serif;;
+    display: flex;
+    justify-content: center;
+    background: url(https://pbs.twimg.com/media/Efw4vTuUwAAvmp6.jpg:large);
+    text-decoration: none;
+    justify-content: space-between;
+    background-position: center ;
+    }
+
+
+.title{
+    margin: 1rem;
+    font-size: 2rem;
+   margin-left: 30%;
+}
+
+.extrainfo, .Classes, .Episodios, .Lista-de-Animes, .Inicio{
+    color: white;
+    text-decoration: none !important;
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    
+}
+
+.inputplace{
+    margin: 2rem;
+    margin-right: 30%;
+    height: 2rem;
+    width: 18rem;
+}
+
+
+.mainbody{
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color:  white;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+
+.category{
+    text-align: center;
+   
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.titlemain{
+    font-size: 3rem;
+    color: white;
+}
+
+
+
+
+
+
+.category .category-list .list-items{
+    text-decoration: none !important;
+    color: white;
+    background: var(--purple);
+    padding: .4rem 1rem;
+    margin: .8rem auto;
+    font-size: 1.3rem;
+    border-radius: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+a{
+    color: white;
+}
+
+
+.blogrecent{
+    margin: 0 auto;
+    width: 80rem;
+    display: block;
+
+}
+
+
+
+/* tryseeproblemwithcarrosel */
+
+/* 
+.owl-item {
+    width: auto !important;
+    margin: 0 auto !important; }
+   
+ */
+
+
+
+
+
+
+
+
+
+
+
+.blogrecomend {
+    margin: 0 auto;
+    width: 60rem;
+    
+}
+
+
+
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 40%;
+    margin: 3rem 2rem ;
+    box-shadow: 10px 5px 5px red;
+    border-radius: 0.3rem;
+    flex-wrap: wrap;
+}
+
+
+main .blog-content .blog-title{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+}
+
+
+
+
+main .blog-content .btn-blog{
+    padding: .4rem 1rem;
+    background: var(--purple);
+    margin: .2rem;
+
+}
+
+main .blog-content .btn-blog:hover{
+    background: rgba(60, 7, 7, 0.718);
+}
+
+
+main .blog-content span{
+display: block;}
+
+
+
+
+.btn {
+    color: gold;
+    
+}
+
+.btn1{
+    color: black;
+}
+
+
+
+.btn-blogaval {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    background: var(--gold);
+    margin: .1rem;
+    width: 3rem;
+}
+
+
+
+
+.btn:hover {
+
+    background-color: rgba(130, 4, 4, 0.217);
+}
+
+
+img{
+    border-radius: 0.3rem;
+   
+}
+
+.owl-stage-outer {
+  
+    max-height: 563px !important;
+}
+
+.owl-item  {
+    margin-left: 1rem;
+     
+   /* width: 190px  !important; */
+
+ }
+
+
+.episodeoslanca{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   display: flex;
+
+}
+
+
+
+ .eps { 
+    margin: 0.5rem;
+   font-size: 1.2rem;
+   font-family: 'Montserrat', sans-serif;
+
+ }
+
+
+
+
+.pagination{
+    font-size: 0.9rem;
+    justify-content: center;
+    color: var(--text-gray);
+    
+}
+
+.pagination a{
+    padding: .4rem .6rem;
+    border-radius: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.pagination a:hover {
+    background: rgba(93, 0, 0, 0.572);
+}
+
+ .pagination .pages{
+    background: var(--purple);
+    color: var(--white);
+}
+
+
+
+
+
+.rights {
+    align-items: center;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    color: rgb(152, 152, 152);
+
+}
+
+.rights h4 a{
+    
+    justify-content: center;
+    color: var(--white);
+}
+
+
+
+
+
+.divLeft {   
+    float: left;
+    position: relative;
+    margin-left: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.textDiv{
+   position: absolute;
+   top: 0;
+   left: 0.5rem;
+   font-size: 1rem;
+   text-shadow: 1px 2px #000000;
+   color: rgb(255, 255, 255);
+   background-color: red;
+}
+
+/* avaliacao de anime */
+
+.divLeft1 {   
+    float: left;
+    position: relative;
+    margin-left: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.textDiv1 {
+   position: absolute;
+   top: 0;
+   left: 0.5rem;
+   font-size: 1rem;
+   text-shadow: 1px 2px #000000;
+   color: rgb(255, 255, 255);
+   background-color: red;
+}
+
+/* avaliacao de anime */
+
+
+
+.morew{
+    margin-bottom: 0.5rem;
+}
+
+.category{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+
+.category a:hover{
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+
+
+.titlemain{
+ width:auto ;
+}
+
+
+
+
+.groupcategory{
+ display: flex;
+ justify-content: space-between;
+
+
+
+}
+
+
+
+/*  html -- listanimes   */
+
+
+.mainlistbody { 
+    display: block;
+    margin: 0 auto;
+     width: 70rem;
+     font-size: 3rem;
+     color: white;
+     text-align: center;
+}
+
+
+
+
+.animelisttier {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.rights {
+    margin-top: 0.3rem;
+}
+
+
+/*  html -- listanimes   */
+
+
+
+
+
+
+/* hmtl --episodes  */
+
+#episodemain {
+    margin: 0 auto !important;
+    max-width: 80rem !important;
+    flex-direction: column;
+}
+
+.mainepisodebody { 
+    display: block;
+     font-size: 3rem;
+     color: white;
+     text-align: center;
+     justify-content: center ;
+}
+
+
+.episodeoslanca01 {
+    margin-top: 1rem;
+   margin-bottom: 1rem;
+   flex-wrap: wrap;
+   display: flex;
+   
+}
+
+#epide{
+   font-size: 1.2rem;
+   font-family: 'Montserrat', sans-serif;
+   margin: 0.3rem;
+   max-width: 300px;
+}
+
+
+.rights {
+    margin-top: 0.3rem;
+}
+
+
+
+
+
+/* hmtl --episodes  */
